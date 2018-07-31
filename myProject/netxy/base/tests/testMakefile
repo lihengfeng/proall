@@ -1,0 +1,31 @@
+
+
+#注释
+目标：依赖
+command
+
+目标：依赖;command
+
+特殊键：
+/换行符
+/+fuhao 转义
+
+*通配符
+- 忽略错误继续
+make -n :只打印执行顺序，不执行
+
+#规则
+隐氏生成
+目标文件选择
+变量展开
+变量只是 宏定义i
+*用在变量和用在 targer中区别，
+
+command 1;command 2 
+
+command 1
+command 2 
+
+
+
+

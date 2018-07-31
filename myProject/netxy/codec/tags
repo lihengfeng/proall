@@ -1,0 +1,196 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+A	test.cpp	/^class A{$/;"	c	file:
+B	test.cpp	/^class B:public A{$/;"	c	file:
+ByteSize	person.pb.cc	/^int Person::ByteSize() const {$/;"	f	class:Person
+ByteSize	person.pb.cc	/^int School::ByteSize() const {$/;"	f	class:School
+CallbackMap	ProtobufDispather.h	/^			typedef std::map<const google::protobuf::Descriptor*,ProtobufMessageCallback> CallbackMap;$/;"	t	class:mini_net::ProtobufDispatcher
+Clear	person.pb.cc	/^void Person::Clear() {$/;"	f	class:Person
+Clear	person.pb.cc	/^void School::Clear() {$/;"	f	class:School
+CopyFrom	person.pb.cc	/^void Person::CopyFrom(const ::google::protobuf::Message& from) {$/;"	f	class:Person
+CopyFrom	person.pb.cc	/^void Person::CopyFrom(const Person& from) {$/;"	f	class:Person
+CopyFrom	person.pb.cc	/^void School::CopyFrom(const ::google::protobuf::Message& from) {$/;"	f	class:School
+CopyFrom	person.pb.cc	/^void School::CopyFrom(const School& from) {$/;"	f	class:School
+DO_	person.pb.cc	213;"	d	file:
+DO_	person.pb.cc	288;"	d	file:
+DO_	person.pb.cc	554;"	d	file:
+DO_	person.pb.cc	614;"	d	file:
+GetCachedSize	person.pb.h	/^  int GetCachedSize() const { return _cached_size_; }$/;"	f	class:Person
+GetCachedSize	person.pb.h	/^  int GetCachedSize() const { return _cached_size_; }$/;"	f	class:School
+GetMetadata	person.pb.cc	/^::google::protobuf::Metadata Person::GetMetadata() const {$/;"	f	class:Person
+GetMetadata	person.pb.cc	/^::google::protobuf::Metadata School::GetMetadata() const {$/;"	f	class:School
+INTERNAL_SUPPRESS_PROTOBUF_FIELD_DEPRECATION	person.pb.cc	4;"	d	file:
+InitAsDefaultInstance	person.pb.cc	/^void Person::InitAsDefaultInstance() {$/;"	f	class:Person
+InitAsDefaultInstance	person.pb.cc	/^void School::InitAsDefaultInstance() {$/;"	f	class:School
+IsInitialized	person.pb.cc	/^bool Person::IsInitialized() const {$/;"	f	class:Person
+IsInitialized	person.pb.cc	/^bool School::IsInitialized() const {$/;"	f	class:School
+MergeFrom	person.pb.cc	/^void Person::MergeFrom(const ::google::protobuf::Message& from) {$/;"	f	class:Person
+MergeFrom	person.pb.cc	/^void Person::MergeFrom(const Person& from) {$/;"	f	class:Person
+MergeFrom	person.pb.cc	/^void School::MergeFrom(const ::google::protobuf::Message& from) {$/;"	f	class:School
+MergeFrom	person.pb.cc	/^void School::MergeFrom(const School& from) {$/;"	f	class:School
+MergePartialFromCodedStream	person.pb.cc	/^bool Person::MergePartialFromCodedStream($/;"	f	class:Person
+MergePartialFromCodedStream	person.pb.cc	/^bool School::MergePartialFromCodedStream($/;"	f	class:School
+MessageCallback	MessageCodec.h	/^			typedef std::function<void(ConnectSocketManager *)> MessageCallback;$/;"	t	class:mini_net::MessageCodec
+MessageCallback	ProtobufCodec.h	/^			typedef std::function<void(ConnectSocketManager *)> MessageCallback;$/;"	t	class:mini_net::ProtobufCodec
+MessageCodec	MessageCodec.h	/^			MessageCodec(){$/;"	f	class:mini_net::MessageCodec
+MessageCodec	MessageCodec.h	/^			MessageCodec(const MessageCallback& mc ):messageCallback(mc){$/;"	f	class:mini_net::MessageCodec
+MessageCodec	MessageCodec.h	/^	class MessageCodec{$/;"	c	namespace:mini_net
+New	person.pb.cc	/^Person* Person::New() const {$/;"	f	class:Person
+New	person.pb.cc	/^School* School::New() const {$/;"	f	class:School
+PROTOBUF_person_2eproto__INCLUDED	person.pb.h	5;"	d
+Person	person.pb.cc	/^Person::Person()$/;"	f	class:Person
+Person	person.pb.cc	/^Person::Person(const Person& from)$/;"	f	class:Person
+Person	person.pb.h	/^class Person : public ::google::protobuf::Message {$/;"	c
+Person_descriptor_	person.pb.cc	/^const ::google::protobuf::Descriptor* Person_descriptor_ = NULL;$/;"	m	namespace:__anon1	file:
+Person_reflection_	person.pb.cc	/^  Person_reflection_ = NULL;$/;"	m	namespace:__anon1	file:
+ProtobufCodec	ProtobufCodec.h	/^			ProtobufCodec(){$/;"	f	class:mini_net::ProtobufCodec
+ProtobufCodec	ProtobufCodec.h	/^			ProtobufCodec(const MessageCallback& mc ):messageCallback(mc){$/;"	f	class:mini_net::ProtobufCodec
+ProtobufCodec	ProtobufCodec.h	/^	class ProtobufCodec{$/;"	c	namespace:mini_net
+ProtobufDispatcher	ProtobufDispather.h	/^			ProtobufDispatcher(){$/;"	f	class:mini_net::ProtobufDispatcher
+ProtobufDispatcher	ProtobufDispather.h	/^	class ProtobufDispatcher{$/;"	c	namespace:mini_net
+ProtobufMessageCallback	ProtobufDispather.h	/^			typedef std::function<void(google::protobuf::Message*)> ProtobufMessageCallback; $/;"	t	class:mini_net::ProtobufDispatcher
+School	person.pb.cc	/^School::School()$/;"	f	class:School
+School	person.pb.cc	/^School::School(const School& from)$/;"	f	class:School
+School	person.pb.h	/^class School : public ::google::protobuf::Message {$/;"	c
+School_descriptor_	person.pb.cc	/^const ::google::protobuf::Descriptor* School_descriptor_ = NULL;$/;"	m	namespace:__anon1	file:
+School_reflection_	person.pb.cc	/^  School_reflection_ = NULL;$/;"	m	namespace:__anon1	file:
+SerializeWithCachedSizes	person.pb.cc	/^void Person::SerializeWithCachedSizes($/;"	f	class:Person
+SerializeWithCachedSizes	person.pb.cc	/^void School::SerializeWithCachedSizes($/;"	f	class:School
+SerializeWithCachedSizesToArray	person.pb.cc	/^::google::protobuf::uint8* Person::SerializeWithCachedSizesToArray($/;"	f	class:Person
+SerializeWithCachedSizesToArray	person.pb.cc	/^::google::protobuf::uint8* School::SerializeWithCachedSizesToArray($/;"	f	class:School
+SetCachedSize	person.pb.cc	/^void Person::SetCachedSize(int size) const {$/;"	f	class:Person
+SetCachedSize	person.pb.cc	/^void School::SetCachedSize(int size) const {$/;"	f	class:School
+SharedCtor	person.pb.cc	/^void Person::SharedCtor() {$/;"	f	class:Person
+SharedCtor	person.pb.cc	/^void School::SharedCtor() {$/;"	f	class:School
+SharedDtor	person.pb.cc	/^void Person::SharedDtor() {$/;"	f	class:Person
+SharedDtor	person.pb.cc	/^void School::SharedDtor() {$/;"	f	class:School
+StaticDescriptorInitializer_person_2eproto	person.pb.cc	/^  StaticDescriptorInitializer_person_2eproto() {$/;"	f	struct:StaticDescriptorInitializer_person_2eproto
+StaticDescriptorInitializer_person_2eproto	person.pb.cc	/^struct StaticDescriptorInitializer_person_2eproto {$/;"	s	file:
+Swap	person.pb.cc	/^void Person::Swap(Person* other) {$/;"	f	class:Person
+Swap	person.pb.cc	/^void School::Swap(School* other) {$/;"	f	class:School
+_cached_size_	person.pb.h	/^  mutable int _cached_size_;$/;"	m	class:Person
+_cached_size_	person.pb.h	/^  mutable int _cached_size_;$/;"	m	class:School
+_has_bits_	person.pb.h	/^  ::google::protobuf::uint32 _has_bits_[1];$/;"	m	class:Person
+_has_bits_	person.pb.h	/^  ::google::protobuf::uint32 _has_bits_[1];$/;"	m	class:School
+_unknown_fields_	person.pb.h	/^  ::google::protobuf::UnknownFieldSet _unknown_fields_;$/;"	m	class:Person
+_unknown_fields_	person.pb.h	/^  ::google::protobuf::UnknownFieldSet _unknown_fields_;$/;"	m	class:School
+address	person.pb.h	/^inline const ::std::string& School::address() const {$/;"	f	class:School
+address_	person.pb.h	/^  ::std::string* address_;$/;"	m	class:School
+callbacks	ProtobufDispather.h	/^			CallbackMap callbacks;$/;"	m	class:mini_net::ProtobufDispatcher
+clear_address	person.pb.h	/^inline void School::clear_address() {$/;"	f	class:School
+clear_email	person.pb.h	/^inline void Person::clear_email() {$/;"	f	class:Person
+clear_has_address	person.pb.h	/^inline void School::clear_has_address() {$/;"	f	class:School
+clear_has_email	person.pb.h	/^inline void Person::clear_has_email() {$/;"	f	class:Person
+clear_has_id	person.pb.h	/^inline void Person::clear_has_id() {$/;"	f	class:Person
+clear_has_name	person.pb.h	/^inline void Person::clear_has_name() {$/;"	f	class:Person
+clear_has_name	person.pb.h	/^inline void School::clear_has_name() {$/;"	f	class:School
+clear_id	person.pb.h	/^inline void Person::clear_id() {$/;"	f	class:Person
+clear_name	person.pb.h	/^inline void Person::clear_name() {$/;"	f	class:Person
+clear_name	person.pb.h	/^inline void School::clear_name() {$/;"	f	class:School
+defaultCallback	ProtobufDispather.h	/^			void defaultCallback(google::protobuf::Message* mptr){$/;"	f	class:mini_net::ProtobufDispatcher
+default_instance	person.pb.cc	/^const Person& Person::default_instance() {$/;"	f	class:Person
+default_instance	person.pb.cc	/^const School& School::default_instance() {$/;"	f	class:School
+default_instance_	person.pb.cc	/^Person* Person::default_instance_ = NULL;$/;"	m	class:Person	file:
+default_instance_	person.pb.cc	/^School* School::default_instance_ = NULL;$/;"	m	class:School	file:
+default_instance_	person.pb.h	/^  static Person* default_instance_;$/;"	m	class:Person
+default_instance_	person.pb.h	/^  static School* default_instance_;$/;"	m	class:School
+descriptor	person.pb.cc	/^const ::google::protobuf::Descriptor* Person::descriptor() {$/;"	f	class:Person
+descriptor	person.pb.cc	/^const ::google::protobuf::Descriptor* School::descriptor() {$/;"	f	class:School
+email	person.pb.h	/^inline const ::std::string& Person::email() const {$/;"	f	class:Person
+email_	person.pb.h	/^  ::std::string* email_;$/;"	m	class:Person
+getL	test.cpp	/^	void getL(){$/;"	f	class:B
+google	person.pb.h	/^namespace google {$/;"	n
+has_address	person.pb.h	/^inline bool School::has_address() const {$/;"	f	class:School
+has_email	person.pb.h	/^inline bool Person::has_email() const {$/;"	f	class:Person
+has_id	person.pb.h	/^inline bool Person::has_id() const {$/;"	f	class:Person
+has_name	person.pb.h	/^inline bool Person::has_name() const {$/;"	f	class:Person
+has_name	person.pb.h	/^inline bool School::has_name() const {$/;"	f	class:School
+id	person.pb.h	/^inline ::google::protobuf::int32 Person::id() const {$/;"	f	class:Person
+id_	person.pb.h	/^  ::google::protobuf::int32 id_;$/;"	m	class:Person
+kAddressFieldNumber	person.pb.cc	/^const int School::kAddressFieldNumber;$/;"	m	class:School	file:
+kAddressFieldNumber	person.pb.h	/^  static const int kAddressFieldNumber = 2;$/;"	m	class:School
+kEmailFieldNumber	person.pb.cc	/^const int Person::kEmailFieldNumber;$/;"	m	class:Person	file:
+kEmailFieldNumber	person.pb.h	/^  static const int kEmailFieldNumber = 3;$/;"	m	class:Person
+kHeaderLen	ProtoCodec.cpp	/^ const static int kHeaderLen = sizeof(int32_t);$/;"	v	file:
+kIdFieldNumber	person.pb.cc	/^const int Person::kIdFieldNumber;$/;"	m	class:Person	file:
+kIdFieldNumber	person.pb.h	/^  static const int kIdFieldNumber = 2;$/;"	m	class:Person
+kMaxMessageLen	MessageCodec.h	/^			const static int kMaxMessageLen = 64*1024*1024; \/\/ same as codec_stream.h kDefaultTotalBytesLimit$/;"	m	class:mini_net::MessageCodec
+kMaxMessageLen	ProtoCodec.cpp	/^     const static int kMaxMessageLen = 64*1024*1024; \/\/ same as codec_stream.h kDefaultTotalBytesLimit$/;"	v	file:
+kMaxMessageLen	ProtobufCodec.h	/^			const static int kMaxMessageLen = 64*1024*1024; \/\/ same as codec_stream.h kDefaultTotalBytesLimit$/;"	m	class:mini_net::ProtobufCodec
+kMinMessageLen	MessageCodec.h	/^			const static int kMinMessageLen =4; $/;"	m	class:mini_net::MessageCodec
+kMinMessageLen	ProtoCodec.cpp	/^   const static int kMinMessageLen = 2*kHeaderLen + 2; \/\/ nameLen + typeName + checkSum$/;"	v	file:
+kMinMessageLen	ProtobufCodec.h	/^			const static int kMinMessageLen =4; $/;"	m	class:mini_net::ProtobufCodec
+kNameFieldNumber	person.pb.cc	/^const int Person::kNameFieldNumber;$/;"	m	class:Person	file:
+kNameFieldNumber	person.pb.cc	/^const int School::kNameFieldNumber;$/;"	m	class:School	file:
+kNameFieldNumber	person.pb.h	/^  static const int kNameFieldNumber = 1;$/;"	m	class:Person
+kNameFieldNumber	person.pb.h	/^  static const int kNameFieldNumber = 1;$/;"	m	class:School
+l	test.cpp	/^	int l=7;$/;"	m	class:B	file:
+main	ProtoCodec.cpp	/^int main(){$/;"	f
+main	messageCodecClient.cpp	/^int main(){$/;"	f
+main	messageCodecServer.cpp	/^int main(){$/;"	f
+main	test.cpp	/^int main(){$/;"	f
+messageCallback	MessageCodec.h	/^			MessageCallback messageCallback;$/;"	m	class:mini_net::MessageCodec
+messageCallback	ProtobufCodec.h	/^			MessageCallback messageCallback;$/;"	m	class:mini_net::ProtobufCodec
+mini_net	MessageCodec.h	/^namespace mini_net{$/;"	n
+mini_net	ProtobufCodec.h	/^namespace mini_net{$/;"	n
+mini_net	ProtobufDispather.h	/^namespace mini_net{$/;"	n
+mutable_address	person.pb.h	/^inline ::std::string* School::mutable_address() {$/;"	f	class:School
+mutable_email	person.pb.h	/^inline ::std::string* Person::mutable_email() {$/;"	f	class:Person
+mutable_name	person.pb.h	/^inline ::std::string* Person::mutable_name() {$/;"	f	class:Person
+mutable_name	person.pb.h	/^inline ::std::string* School::mutable_name() {$/;"	f	class:School
+mutable_unknown_fields	person.pb.h	/^  inline ::google::protobuf::UnknownFieldSet* mutable_unknown_fields() {$/;"	f	class:Person
+mutable_unknown_fields	person.pb.h	/^  inline ::google::protobuf::UnknownFieldSet* mutable_unknown_fields() {$/;"	f	class:School
+n	test.cpp	/^	int n;$/;"	m	class:A	file:
+name	person.pb.h	/^inline const ::std::string& Person::name() const {$/;"	f	class:Person
+name	person.pb.h	/^inline const ::std::string& School::name() const {$/;"	f	class:School
+name_	person.pb.h	/^  ::std::string* name_;$/;"	m	class:Person
+name_	person.pb.h	/^  ::std::string* name_;$/;"	m	class:School
+objs	makefile	/^objs= Manager.o Epoller.o $/;"	m
+onMessage	MessageCodec.h	/^			void onMessage(ConnectSocketManager* csm){$/;"	f	class:mini_net::MessageCodec
+onProtobufMessage	ProtobufDispather.h	/^			void onProtobufMessage(google::protobuf::Message* mptr){$/;"	f	class:mini_net::ProtobufDispatcher
+operator =	person.pb.h	/^  inline Person& operator=(const Person& from) {$/;"	f	class:Person
+operator =	person.pb.h	/^  inline School& operator=(const School& from) {$/;"	f	class:School
+protobuf	person.pb.h	/^namespace protobuf {$/;"	n	namespace:google
+protobuf_AddDesc_person_2eproto	person.pb.cc	/^void protobuf_AddDesc_person_2eproto() {$/;"	f
+protobuf_AssignDesc_person_2eproto	person.pb.cc	/^void protobuf_AssignDesc_person_2eproto() {$/;"	f
+protobuf_AssignDescriptorsOnce	person.pb.cc	/^inline void protobuf_AssignDescriptorsOnce() {$/;"	f	namespace:__anon2
+protobuf_RegisterTypes	person.pb.cc	/^void protobuf_RegisterTypes(const ::std::string&) {$/;"	f	namespace:__anon2
+protobuf_ShutdownFile_person_2eproto	person.pb.cc	/^void protobuf_ShutdownFile_person_2eproto() {$/;"	f
+registerCallback	ProtobufDispather.h	/^				void registerCallback(const ProtobufMessageCallback& cb){$/;"	f	class:mini_net::ProtobufDispatcher
+release_address	person.pb.h	/^inline ::std::string* School::release_address() {$/;"	f	class:School
+release_email	person.pb.h	/^inline ::std::string* Person::release_email() {$/;"	f	class:Person
+release_name	person.pb.h	/^inline ::std::string* Person::release_name() {$/;"	f	class:Person
+release_name	person.pb.h	/^inline ::std::string* School::release_name() {$/;"	f	class:School
+send	MessageCodec.h	/^			void  send(ConnectSocketManager* csm,string& message){$/;"	f	class:mini_net::MessageCodec
+send	ProtobufCodec.h	/^			void send(ConnectSocketManager*csm,google::protobuf::Message& message){$/;"	f	class:mini_net::ProtobufCodec
+set_address	person.pb.h	/^inline void School::set_address(const ::std::string& value) {$/;"	f	class:School
+set_address	person.pb.h	/^inline void School::set_address(const char* value) {$/;"	f	class:School
+set_address	person.pb.h	/^inline void School::set_address(const char* value, size_t size) {$/;"	f	class:School
+set_allocated_address	person.pb.h	/^inline void School::set_allocated_address(::std::string* address) {$/;"	f	class:School
+set_allocated_email	person.pb.h	/^inline void Person::set_allocated_email(::std::string* email) {$/;"	f	class:Person
+set_allocated_name	person.pb.h	/^inline void Person::set_allocated_name(::std::string* name) {$/;"	f	class:Person
+set_allocated_name	person.pb.h	/^inline void School::set_allocated_name(::std::string* name) {$/;"	f	class:School
+set_email	person.pb.h	/^inline void Person::set_email(const ::std::string& value) {$/;"	f	class:Person
+set_email	person.pb.h	/^inline void Person::set_email(const char* value) {$/;"	f	class:Person
+set_email	person.pb.h	/^inline void Person::set_email(const char* value, size_t size) {$/;"	f	class:Person
+set_has_address	person.pb.h	/^inline void School::set_has_address() {$/;"	f	class:School
+set_has_email	person.pb.h	/^inline void Person::set_has_email() {$/;"	f	class:Person
+set_has_id	person.pb.h	/^inline void Person::set_has_id() {$/;"	f	class:Person
+set_has_name	person.pb.h	/^inline void Person::set_has_name() {$/;"	f	class:Person
+set_has_name	person.pb.h	/^inline void School::set_has_name() {$/;"	f	class:School
+set_id	person.pb.h	/^inline void Person::set_id(::google::protobuf::int32 value) {$/;"	f	class:Person
+set_name	person.pb.h	/^inline void Person::set_name(const ::std::string& value) {$/;"	f	class:Person
+set_name	person.pb.h	/^inline void Person::set_name(const char* value) {$/;"	f	class:Person
+set_name	person.pb.h	/^inline void Person::set_name(const char* value, size_t size) {$/;"	f	class:Person
+set_name	person.pb.h	/^inline void School::set_name(const ::std::string& value) {$/;"	f	class:School
+set_name	person.pb.h	/^inline void School::set_name(const char* value) {$/;"	f	class:School
+set_name	person.pb.h	/^inline void School::set_name(const char* value, size_t size) {$/;"	f	class:School
+static_descriptor_initializer_person_2eproto_	person.pb.cc	/^} static_descriptor_initializer_person_2eproto_;$/;"	v	typeref:struct:StaticDescriptorInitializer_person_2eproto
+unknown_fields	person.pb.h	/^  inline const ::google::protobuf::UnknownFieldSet& unknown_fields() const {$/;"	f	class:Person
+unknown_fields	person.pb.h	/^  inline const ::google::protobuf::UnknownFieldSet& unknown_fields() const {$/;"	f	class:School
+~Person	person.pb.cc	/^Person::~Person() {$/;"	f	class:Person
+~School	person.pb.cc	/^School::~School() {$/;"	f	class:School

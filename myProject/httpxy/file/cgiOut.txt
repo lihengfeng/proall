@@ -1,0 +1,14 @@
+Content-type:text/html
+
+<html>
+<head>
+<title>BOOK</title>
+</head>
+<body>
+<h2>GET</h2>
+<ul>
+<li>name=abc</li>
+<li>author=123</li>
+</ul>
+</body>
+</html>

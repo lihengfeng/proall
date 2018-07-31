@@ -1,0 +1,27 @@
+
+#尽量不要使用自动推导，因为
+
+objs=../Buffer.o 
+CFLAGS=-std=c++11 
+exes=testCdebug testBuffer
+
+.PHONY:all
+all:testCdebug testBuffer
+	echo 1123
+
+testCdebug:../Cdebug.h 
+	g++ $(CFLAGS) testCdebug.cpp  -o testCdebug
+testBuffer:../Cdebug.h ../Buffer.o 
+	g++ $(CFLAGS) testBuffer.cpp ../Buffer.o -o testBuffer
+
+#../Buffer.o:../Buffer.h  
+#	g++ $(CFLAGS) ../Buffer.cpp -c -o ../Buffer.o 
+
+#下面的这一行等同于，上面生成Buffer.o的语句
+$(objs):%.o:%.cpp
+	g++ $(CFLAGS) $< -c -o $@ 
+
+.PHONY: clean
+clean:
+	-rm $(exes) $(objs)
+

@@ -1,0 +1,13 @@
+
+1 memory:
+	allocate: 空间的申请释放
+		|-- allocate(int);
+
+		|--  deallocate(void*p)
+	construct<T>:构造与析构
+		|-- construct<T>(void*p,int ); 在p位置构造n个T类型  
+		|-- deconstruct<T>(void*p); 在p位置析构
+		|-- dwconstruct<T>(void*p,int ); 在p位置析构n个T类型  
+		|-- dwconstruct<T>(void*begin,void*end); 将begin到end上的全部析构
+
+2

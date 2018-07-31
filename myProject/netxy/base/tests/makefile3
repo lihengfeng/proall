@@ -1,0 +1,41 @@
+VPATH=../
+objs=Buffer.o 
+#objdir=objs
+#CXXFLAGS=-std=c++11 -I ~ 
+
+exes=testCdebug testBuffer
+
+.PHONY:all
+all:testCdebug testBuffer $(objdir)
+	echo 1123
+	echo $(CXXFLAGS)
+
+$(objdir):
+	mkdir -p $(objdir)
+
+testCdebug:Cdebug.h 
+	g++  testCdebug.cpp  -o testCdebug $(CXXFLAGS) 
+testBuffer:Buffer.o Cdebug.h  
+	g++  testBuffer.cpp $< -o testBuffer $(CXXFLAGS) 
+
+#../Buffer.o:../Buffer.h  
+#	g++ $(CFLAGS) ../Buffer.cpp -c -o ../Buffer.o 
+
+#下列写法(),如果../Buffer本身不存在,会导致错误,原因：生成了../Buffer.o,但是检测testBuffer时没有找到../Buffer.o ,所以 15行中的$<指代的是 Buffer.o 而不是../Buffer.o
+#$(objs):%.o:%.cpp   
+#	g++ $(CFLAGS) $< -c -o ../$@   $@前边加上../，
+
+$(objs):%.o:%.cpp   #等价于 Buffer.o: ../Buffer.cpp ,因为设置了vpath,找Buffer.cpp在当前目录找不到，自动去../目录中去找，找到后，转变名字
+	g++ $(CFLAGS) $< -c -o $@ 
+
+.PHONY: clean
+clean:
+	-rm $(exes) $(objs)
+
+
+commands=$(shell pwd)
+.PHONY: install
+install:
+	echo $(commands)
+
+

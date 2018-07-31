@@ -1,0 +1,22 @@
+/*************************************************************************
+	> File Name: DirectlyAllocate.h
+	> Author: lihengfeng
+	> Mail: 17704623602@163.com 
+	> Created Time: Sun Dec  3 16:22:59 2017
+ ************************************************************************/
+
+#include<iostream>
+#include<new>
+using namespace std;
+class DirectlyAllocate{
+public:
+	DirectlyAllocate(){
+	}
+	static void* allocate(size_t size){
+		return ::operator new(size);
+	}
+	static void* deallocate(void*p,size_t size){
+		::operator delete(p);
+	}
+private:
+};

@@ -1,0 +1,86 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+CC	makefile	/^CC = gcc$/;"	m
+CDEBUG_H	Cdebug.h	7;"	d
+CS	makefile	/^CS=$(foreach dir,$(DIRS),$(wildcard $(dir)\/*.cpp))$/;"	m
+CXXFLAGS	makefile	/^CXXFLAGS= -std=c++11$/;"	m
+Cdebug	Cdebug.h	/^				Cdebug(const string& str1,const string& str2):fileName(str1),funName(str2){$/;"	f	class:Cdebug
+Cdebug	Cdebug.h	/^		class Cdebug{$/;"	c
+DIRS	makefile	/^DIRS= .$/;"	m
+LIBS	makefile	/^LIBS= -pthread$/;"	m
+OBJS	makefile	/^OBJS=$(patsubst %.cpp,%.o,$(CS))$/;"	m
+SERVER_NAME	Httpxy.cpp	29;"	d	file:
+SERVER_NAME	Httpxy2.cpp	32;"	d	file:
+THREADPOLL_H	ThreadPool.h	3;"	d
+Task	ThreadPool.h	/^		typedef std::function<void()> Task;$/;"	t	class:ThreadPool
+ThreadNameMap	ThreadPool.h	/^		typedef std::map<std::thread::id,std::string> ThreadNameMap;$/;"	t	class:ThreadPool
+ThreadPool	ThreadPool.h	/^		ThreadPool(){$/;"	f	class:ThreadPool
+ThreadPool	ThreadPool.h	/^		explicit ThreadPool(int n):maxQueueSize(n){$/;"	f	class:ThreadPool
+ThreadPool	ThreadPool.h	/^class ThreadPool$/;"	c
+bad_request	Httpxy.cpp	/^void bad_request(int client)$/;"	f
+cannot_execute	Httpxy.cpp	/^void cannot_execute(int client)  \/\/无法执行cgi，所以是服务器原因，返回500状态$/;"	f
+cat	Httpxy.cpp	/^void cat(int fd,ifstream& fs){  \/\/发送文件内容$/;"	f
+cat	Httpxy2.cpp	/^void cat(int fd,ifstream& fs){  \/\/发送文件内容$/;"	f
+cat	tests/testFile.cpp	/^void cat(ifstream& fs){  \/\/发送文件内容$/;"	f
+debug_error	Cdebug.h	92;"	d
+debug_value	Cdebug.h	91;"	d
+deque_	ThreadPool.h	/^		std::deque<Task> deque_;$/;"	m	class:ThreadPool
+exec	Httpxy.cpp	/^void exec(int clientFd,const string& method,const string& path,const string& params){$/;"	f
+exec	Httpxy2.cpp	/^void exec(int clientFd,const string&method,const string&path,const string&params){};	$/;"	f
+fileName	Cdebug.h	/^				const string fileName;$/;"	m	class:Cdebug
+fun	tests/testString.cpp	/^int fun(void){$/;"	f
+funName	Cdebug.h	/^				const string funName;$/;"	m	class:Cdebug
+getLine	Httpxy.cpp	/^int getLine(int fd,char*buf,int size){  \/\/获取一行$/;"	f
+getLine	Httpxy2.cpp	/^int getLine(int fd,char*buf,int size){  \/\/获取一行$/;"	f
+getTask	ThreadPool.cpp	/^ThreadPool::Task ThreadPool::getTask(){$/;"	f	class:ThreadPool
+getTime	Cdebug.h	/^		static string getTime(){$/;"	f	class:Cdebug
+getpid	ThreadPool.h	22;"	d
+headers	Httpxy.cpp	/^void headers(int clientFd){$/;"	f
+headers	Httpxy2.cpp	/^void headers(int clientFd){$/;"	f
+init	Httpxy.cpp	/^int init(int port){$/;"	f
+init	Httpxy2.cpp	/^int init(int port){$/;"	f
+isDirector	Httpxy.cpp	/^bool isDirector(string& path){$/;"	f
+isFull	ThreadPool.h	/^		bool isFull() const{$/;"	f	class:ThreadPool
+is_running	ThreadPool.h	/^		bool is_running = false;$/;"	m	class:ThreadPool
+length	tests/testEnv.py	/^length = os.getenv('con')$/;"	v
+main	Httpxy.cpp	/^int main(){$/;"	f
+main	Httpxy2.cpp	/^int main(){$/;"	f
+main	tests/testDup.cpp	/^int main(){$/;"	f
+main	tests/testEnv.cpp	/^int main(){$/;"	f
+main	tests/testFile.cpp	/^int main(){$/;"	f
+main	tests/testStdin.cpp	/^int main(){$/;"	f
+main	tests/testStract.cpp	/^int main(){$/;"	f
+main	tests/testString.cpp	/^int main(){$/;"	f
+main	udpClient.cpp	/^int main(){$/;"	f
+maxQueueSize	ThreadPool.h	/^		int maxQueueSize = 30;$/;"	m	class:ThreadPool
+mutex_	ThreadPool.h	/^		std::mutex mutex_;$/;"	m	class:ThreadPool
+no_empty	ThreadPool.h	/^		std::condition_variable_any no_empty;$/;"	m	class:ThreadPool
+no_full	ThreadPool.h	/^		std::condition_variable_any no_full;$/;"	m	class:ThreadPool
+notFound	Httpxy.cpp	/^void notFound(int client){$/;"	f
+notFound	Httpxy2.cpp	/^void notFound(int client){$/;"	f
+os	tests/testEnv.py	/^import sys,os$/;"	i
+print	Cdebug.h	/^			static void print(stringstream& ss,const T&t){$/;"	f	class:Cdebug
+print	Cdebug.h	/^			static void print(stringstream& ss,const T&t,const Args&... args){$/;"	f	class:Cdebug
+printError	Cdebug.h	/^			static void printError(const string& fileName,const string& funName,const Args&... args){$/;"	f	class:Cdebug
+printValue	Cdebug.h	/^			static	void printValue(const string& fileName,const string& funName,const Args&... args){$/;"	f	class:Cdebug
+readRequest	Httpxy.cpp	/^void readRequest(int clientFd){  $/;"	f
+readRequest	Httpxy2.cpp	/^void readRequest(int clientFd){  $/;"	f
+returnFile	Httpxy.cpp	/^void returnFile(int fd,const string& path){$/;"	f
+returnFile	Httpxy2.cpp	/^void returnFile(int fd,const string& path){$/;"	f
+run	ThreadPool.cpp	/^void ThreadPool::run(const Task& fun){$/;"	f	class:ThreadPool
+runInThread	ThreadPool.cpp	/^void ThreadPool::runInThread(int i){$/;"	f	class:ThreadPool
+setThreadInitCallback	ThreadPool.h	/^		void setThreadInitCallback(const Task& cb){$/;"	f	class:ThreadPool
+start	ThreadPool.cpp	/^void ThreadPool::start(int threadNum){  \/\/start时必须保证thread_list为空，防止覆盖已有的thread_list.$/;"	f	class:ThreadPool
+stop	ThreadPool.cpp	/^void ThreadPool::stop(){$/;"	f	class:ThreadPool
+sys	tests/testEnv.py	/^import sys,os$/;"	i
+threadInitCallback	ThreadPool.h	/^		std::function<void()>  threadInitCallback;$/;"	m	class:ThreadPool
+thread_list	ThreadPool.h	/^		std::vector<std::shared_ptr<std::thread>> thread_list;$/;"	m	class:ThreadPool
+tid_list	ThreadPool.h	/^		std::vector<std::thread::id> tid_list;$/;"	m	class:ThreadPool
+unimplemented	Httpxy.cpp	/^void unimplemented(int client)$/;"	f
+unimplemented	Httpxy2.cpp	/^void unimplemented(int client)$/;"	f
+~Cdebug	Cdebug.h	/^				~Cdebug(){$/;"	f	class:Cdebug
+~ThreadPool	ThreadPool.h	/^		~ThreadPool(){$/;"	f	class:ThreadPool
